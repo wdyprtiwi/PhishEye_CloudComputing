@@ -28,7 +28,7 @@ POST
     "prediction": "Phishing"
 }
 ```
-## Registratin, Login, and Report
+## Registration, Login, and Report
 Backend for API Registratin, Login, and Report using nodejs, express, and MySQL
 ## Endpoint 
 https://app2-5hl7lkua7q-et.a.run.app
@@ -77,8 +77,7 @@ Login
         }
     }
 
-Report Link
---
+## Report Link
 
 ### URL
     /reportLink
