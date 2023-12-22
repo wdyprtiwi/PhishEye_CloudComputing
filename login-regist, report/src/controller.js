@@ -28,6 +28,12 @@ const signup = (req, res) => {
 // Login with existing user
 const login = (req, res) => {
   const { email, password } = req.body
+
+  // Validate if there is the data
+  if (!email || !password) {
+    return res.status(400).json({ error: true, message: 'Email and password are required' })
+  }
+  
   const query = 'SELECT * FROM users WHERE email = ? AND password = ?'
 
   db.query(query, [email, password], (err, result) => {
