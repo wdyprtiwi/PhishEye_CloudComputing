@@ -1,8 +1,8 @@
-# API FOR URL DETECTION FEATURE OF PHISEYE
+# API of PhishEye Mobile App
 
 
 Backend for API Detection Feature using Flask, Python, and Tensorflow. 
-## Endpoint
+## Endpoint Detection Feature
 
 Link Endpoint: https://fitur5-m36h2vfbmq-et.a.run.app/
 
@@ -32,7 +32,7 @@ POST
 ```
 
 Backend for API Registratin, Login, and Report using nodejs, express, and MySQL
-## Endpoint
+## Endpoint Registratin, Login, and Report
 https://app2-5hl7lkua7q-et.a.run.app
 
 Register
