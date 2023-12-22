@@ -1,7 +1,7 @@
 
 # API for Phisheye Application
 
-Backend for API auth regsitration, login, report link using express, nodejs, and database MySQL 
+Backend for API auth registration, login, report link using express, nodejs, and database MySQL 
 
 Endpoint
 --
